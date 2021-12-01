@@ -1,0 +1,23 @@
+name: Terraform to setup ArgoCD on Civo Cluster
+
+on: [push, pull_request]
+
+env:
+    token: ${{ secrets.CIVO_TOKEN }}
+
+jobs:
+  terraform:
+    name: Terraform
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v1
+        
+      - name: Terraform Init and Plan
+        run: cd terraform && terraform init && terraform plan
+    
+      - name: Terraform Apply
+        run: cd terraform && terraform apply -auto-approve
