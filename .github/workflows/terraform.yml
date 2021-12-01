@@ -1,6 +1,6 @@
 name: Terraform to setup ArgoCD on Civo Cluster
 
-on: [pull_request]
+on: [push]
 
 env:
     token: ${{ secrets.CIVO_TOKEN }}
