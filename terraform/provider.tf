@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "civo" {
-  token = "mpl6XUOkXb3AasxJnxjLCZxPDLCigQiCAUFcF3HO1MyDVKCArH"
+  token = "enter_token"
   region = "LON1"
 }
