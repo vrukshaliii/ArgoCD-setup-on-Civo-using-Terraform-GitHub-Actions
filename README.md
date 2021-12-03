@@ -72,4 +72,4 @@ Git Repository as source of truth : https://github.com/Vrukshali-26/K8S-yamls/
   <img src="https://github.com/Vrukshali-26/ArgoCD-setup-on-Civo-using-Terraform-GitHub-Actions/blob/main/images/Applications%20-%20Argo%20CD%20-%20demo.png?raw=true" alt="finish">
 </p>
   
-  
+### Blog URL : https://vrukshalitorawane.medium.com/terraform-integrated-with-github-actions-to-setup-argo-cd-on-civo-8dbfcba4c7ec
